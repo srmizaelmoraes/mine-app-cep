@@ -15,7 +15,7 @@ function run(event) {
 
 
     axios
-        .get(`http://viacep.com.br/ws/${zipCode}/json/`)
+        .get(`https://viacep.com.br/ws/${zipCode}/json/`)
         .then(function (response) {
             if (response.data.erro) {
                 error()
