@@ -18,7 +18,7 @@ function run(event) {
         .get(`http://viacep.com.br/ws/${zipCode}/json/`)
         .then(function (response) {
             if (response.data.erro) {
-               throw new Error('CEP inválida')
+                throw new Error('CEP inválida')
             }
             content.innerHTML = ''
             creatLine('DDD ' + response.data.ddd)
