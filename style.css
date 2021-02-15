@@ -56,7 +56,8 @@ form button {
 main {
     position: relative;
     width: 100%;
-    text-align: center;
+    margin-left: 2rem;
+    text-align: left;
     transition: all 1s;
 }
 

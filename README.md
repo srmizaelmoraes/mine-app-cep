@@ -1,2 +1,2 @@
-# exec1-cataline
- App simples te procurar CEP
+# mineApp-cep
+ Mine App que localiza informações do CEP ultilizando a API do https://viacep.com.br
